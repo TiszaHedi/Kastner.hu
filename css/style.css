@@ -74,11 +74,17 @@ section {
   text-decoration: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 556px) {
   .kastner__link a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 109px
+  }
+}
+
+@media (max-width: 375px) {
+  .kastner__link a {
     height: 131px
   }
 }
@@ -155,9 +161,11 @@ section {
 @media (max-width: 576px) {
   .kastner__link--left {
     padding-right: 14px;
+    padding-left: 19px;
   }
   .kastner__link--right {
     margin-left: -5px;
+    padding-right: 22px;
   }
 }
 
